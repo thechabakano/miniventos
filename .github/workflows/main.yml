@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    # Corre cada 2h entre las 8 y las 23
+    # Corre cada 10h entre las 8 y las 23
     - cron: '0 8-23/10 * * *'
 
 jobs:
